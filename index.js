@@ -84,3 +84,6 @@ function makeMultipleFunc(num) {
 // quad(3)
 // 12
 
+greet();
+alert('I AM AN ALERT!!');
+diss();
