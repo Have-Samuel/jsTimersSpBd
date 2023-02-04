@@ -104,8 +104,27 @@ function makeMultipleFunc(num) {
 // greet();
 
 
-setTimeout(function () {
-  console.log('Bwoh!');
-  console.log('Myaoh!');
-  console.log('Onick!');
-}, 3000);
+// setTimeout(function () {
+//   console.log('Bwoh!');
+//   console.log('Myaoh!');
+//   console.log('Onick!');
+// }, 3000);
+
+function doItTwice(func) {
+  func();
+  func();
+  func();
+}
+
+doItTwice(diss);
+
+function doItTwice(func) {
+  func();
+  func();
+  func();
+}
+
+doItTwice(function () {
+  console.log('Stop bothering me!!');
+  console.log('Please go away!')
+});
