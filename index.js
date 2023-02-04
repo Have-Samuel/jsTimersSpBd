@@ -134,15 +134,27 @@ function makeMultipleFunc(num) {
 //   console.log('ONE');
 // }
 
-function countdown(time) {
-  let timer = setInterval(function () {
-    time--;
-    if (time <= 0) {
-      clearInterval(timer);
-      console.log('WALAYII!!');
-    } else {
-      console.log(time);
-    }
-  }, 2000)
-}
+// function countdown(time) {
+//   let timer = setInterval(function () {
+//     time--;
+//     if (time <= 0) {
+//       clearInterval(timer);
+//       console.log('WALAYII!!');
+//     } else {
+//       console.log(time);
+//     }
+//   }, 2000)
+// }
 
+
+function randomGame(num) {
+  let times = 0;
+  let timer = setInterval(function () {
+    num = Math.random();
+    times++;
+    if (num > .75) {
+      clearInterval(timer);
+      console.log(`It took ${times} try/tries`)
+    }
+  }, 1000)
+}
