@@ -29,3 +29,7 @@ function diss() {
 }
 
 const funcs = [greet, diss];
+
+const myFunc = function add(x, y) {
+  return x + y;
+}
