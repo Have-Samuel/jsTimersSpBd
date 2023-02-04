@@ -88,9 +88,24 @@ function makeMultipleFunc(num) {
 // alert('I AM AN ALERT!!');
 // diss();
 
-greet();
-setTimeout(diss, 3000);
-diss();
-greet();
+// greet();
+// setTimeout(diss, 3000);
+// diss();
+// greet();
 
 // const id = setInterval(greet, 1000);
+
+// greet();
+// setTimeout(function () {
+//   diss();
+//   diss();
+//   diss();
+// }, 1000)
+// greet();
+
+
+setTimeout(function () {
+  console.log('Bwoh!');
+  console.log('Myaoh!');
+  console.log('Onick!');
+}, 3000);
