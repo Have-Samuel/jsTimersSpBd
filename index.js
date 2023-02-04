@@ -84,6 +84,13 @@ function makeMultipleFunc(num) {
 // quad(3)
 // 12
 
+// greet();
+// alert('I AM AN ALERT!!');
+// diss();
+
 greet();
-alert('I AM AN ALERT!!');
+setTimeout(diss, 3000);
 diss();
+greet();
+
+// const id = setInterval(greet, 1000);
