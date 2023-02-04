@@ -110,27 +110,39 @@ function makeMultipleFunc(num) {
 //   console.log('Onick!');
 // }, 3000);
 
-function doItTwice(func) {
-  func();
-  func();
-  func();
-}
+// function doItTwice(func) {
+//   func();
+//   func();
+//   func();
+// }
 
-doItTwice(diss);
+// doItTwice(diss);
 
-function doItTwice(func) {
-  func();
-  func();
-  func();
-}
+// function doItTwice(func) {
+//   func();
+//   func();
+//   func();
+// }
 
-doItTwice(function () {
-  console.log('Stop bothering me!!');
-  console.log('Please go away!')
-});
+// doItTwice(function () {
+//   console.log('Stop bothering me!!');
+//   console.log('Please go away!')
+// });
 
-// Storing Anonymous functions in variables
-const printOne = function () {
-  console.log('ONE');
+// // Storing Anonymous functions in variables
+// const printOne = function () {
+//   console.log('ONE');
+// }
+
+function countdown(time) {
+  let timer = setInterval(function () {
+    time--;
+    if (time <= 0) {
+      clearInterval(timer);
+      console.log('WALAYII!!');
+    } else {
+      console.log(time);
+    }
+  }, 2000)
 }
 
