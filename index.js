@@ -128,3 +128,9 @@ doItTwice(function () {
   console.log('Stop bothering me!!');
   console.log('Please go away!')
 });
+
+// Storing Anonymous functions in variables
+const printOne = function () {
+  console.log('ONE');
+}
+
