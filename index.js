@@ -1,11 +1,11 @@
-// // Using functions as Arguements
-// function greet() {
-//   console.log('Hi!, i Love You!!')
-// }
+// Using functions as Arguements
+function greet() {
+  console.log('Hi!, i Love You!!')
+}
 
-// function diss() {
-//   console.log('Your The waste!!');
-// }
+function diss() {
+  console.log('Your The waste!!');
+}
 
 // function repeatThreeTimes(func) {
 //   func();
@@ -83,3 +83,4 @@ function makeMultipleFunc(num) {
 // 16
 // quad(3)
 // 12
+
