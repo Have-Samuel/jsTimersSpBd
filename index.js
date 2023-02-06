@@ -1,11 +1,11 @@
 // Using functions as Arguements
-function greet() {
-  console.log('Hi!, i Love You!!')
-}
+// function greet() {
+//   console.log('Hi!, i Love You!!');
+// }
 
-function diss() {
-  console.log('Your The waste!!');
-}
+// function diss() {
+//   console.log('Your The waste!!');
+// }
 
 // function repeatThreeTimes(func) {
 //   func();
@@ -51,8 +51,9 @@ function diss() {
 function makeMultipleFunc(num) {
   return function mul(x) {
     return num * x;
-  }
+  };
 }
+makeMultipleFunc();
 
 // makeMultipleFunc()
 //  mul(x) {
@@ -103,7 +104,6 @@ function makeMultipleFunc(num) {
 // }, 1000)
 // greet();
 
-
 // setTimeout(function () {
 //   console.log('Bwoh!');
 //   console.log('Myaoh!');
@@ -146,15 +146,15 @@ function makeMultipleFunc(num) {
 //   }, 2000)
 // }
 
-
-function randomGame(num) {
-  let times = 0;
-  let timer = setInterval(function () {
-    num = Math.random();
-    times++;
-    if (num > .75) {
-      clearInterval(timer);
-      console.log(`It took ${times} try/tries`)
-    }
-  }, 1000)
-}
+// function randomGame(num) {
+//   const times = 0;
+//   const timer = setInterval(() => {
+//     num = Math.random();
+//     times++;
+//     if (num > 0.75) {
+//       clearInterval(timer);
+//       // console.log(`It took ${times} try/tries`);
+//     }
+//   }, 1000);
+// }
+// randomGame();
